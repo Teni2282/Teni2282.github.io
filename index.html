@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Кликер</title>
+</head>
+<body>
+    <input type="button" value="+ 1 ШРЕК" onclick="hello();" />
+    <input type="button" value="- 1 ШРЕК" onclick="hi();" />
+    <p id="Shrek">0</p>
+    <script>
+var p = document.getElementById(`Shrek`)
+var count = 0;
+
+function hello() {
+    count++;
+p.innerHTML = count;
+}
+function hi() {
+    count--;
+    p.innerHTML = count;
+}
+    </script>
+
+</body>
+
+
+</html>
